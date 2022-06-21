@@ -1,0 +1,454 @@
+@media (max-width: 767px) {
+    /* 0 ----> 767*/
+    .logo {
+        width: 100%;
+    }
+    .main-nav {
+        margin: 0 auto 0 auto;
+    }
+    .header .cont>ul>li>a {
+        padding: 5px;
+        margin-left: 10px;
+    }
+    .slider .sliderElement>div>img {
+        width: 200px;
+        height: calc(200px/1.618px);
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .slider .sliderElement>div {
+        padding: 5px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .slider .sliderElement {
+        display: flex;
+    }
+    /*second header*/
+    .secondHeader {
+        padding: 0px;
+    }
+    .secondHeader .container .largeText h1 {
+        text-align: center;
+        font-size: 40px;
+    }
+    p {
+        font-size: 20px;
+    }
+    .secondHeader .container .buttons {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0px 20px 0px 20px;
+    }
+    .secondHeader .container .buttons a {
+        margin-top: 20px;
+    }
+    .slider {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto 0 auto;
+    }
+    .slider .sliderElement {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .slider .sliderElement>div>img {
+        max-width: 200px;
+        transition-duration: 0.3s;
+    }
+    .slider .sliderElement .describe {
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .slider .sliderElement .describe p {
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+    }
+    .slider .sliderElement .describe h2 {
+        display: flex;
+        justify-content: center;
+    }
+    /*%%%%%%%%%%*/
+    .sliderScroller {
+        width: 200px;
+        margin: 0 auto 0 auto;
+        background-color: green;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .body .bodyCont .bodyContElement img {
+        width: 200px;
+        height: calc(200px / 1.618px);
+        margin-left: 10px;
+    }
+    .body .bodyCont .bodyContElement p {
+        font-size: 16px;
+    }
+    /*body2*/
+    .body2Cont {
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        grid-template-rows: repeat(5, auto);
+        column-gap: 40px;
+        justify-content: center;
+    }
+    .body2Element {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 0 10px #ddd;
+        margin: 20px 0 0 0;
+    }
+    .body2Element .dishText h3 {
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    .body2Element .dishText {
+        background-color: white;
+        width: 100%;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+    .body2Element .dishText i {
+        margin-left: 14px;
+        font-size: small;
+    }
+    .body2Element .dish img {
+        max-width: 200px;
+    }
+    /*sections*/
+    .sections h1 {
+        font-size: 20px;
+    }
+    .sections .container {
+        display: flex;
+        background-color: white;
+        flex-wrap: nowrap;
+        overflow: auto;
+    }
+    .sections .container .sec {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-left: 10px;
+    }
+    .scrollButtons a {
+        display: none;
+    }
+
+}
+
+
+/*
+-
+-
+-
+-
+-
+- -
+-
+-
+-
+-
+-
+-
+-
+-
+*/
+
+
+/* Medium */
+
+@media (min-width: 660px) {
+    /* 767 ----> 1200*/
+    .secondHeader .container .largeText h1 {
+        font-size: 30px;
+    }
+    .slider .sliderElement>div>img {
+        width: 600px;
+        height: calc(600px / 1.618px);
+    }
+    .secondHeader .container .buttons {
+        flex-direction: row;
+        padding: 0px 20px 0px 20px;
+    }
+    .secondHeader .container .buttons a {
+        width: 70px;
+        height: 40px;
+        margin-top: 20px;
+        margin-left: 5px;
+    }
+    .secondHeader .container .largeText h1 {
+        text-align: center;
+        font-size: 50px;
+    }
+    p {
+        font-size: 25px;
+    }
+    .slider {
+        margin: 0 auto 0 auto;
+        width: 600px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+    }
+    .sliderScroller {
+        margin: 0 auto 0 auto;
+        width: 600px;
+        background-color: green;
+        display: flex;
+        justify-content: space-between;
+    }
+    .slider .sliderElement {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .slider .sliderElement>div>img {
+        max-width: 450px;
+        transition-duration: 0.3s;
+    }
+    .slider .sliderElement .describe {
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    /*body 2*/
+    .body2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .body2Cont {
+        margin: 0 auto 0 auto;
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        gap: 40px;
+        padding: 0 15px 0 15px;
+    }
+    .body2Element {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 0 10px #ddd;
+    }
+    .body2Element .dish img {
+        max-width: 250px;
+    }
+    .body2Element .dishText {
+        background-color: white;
+        width: 100%;
+        padding: 0 0 10px 10px;
+    }
+    .body2Element .dishText i {
+        margin-left: 10px;
+        font-size: large;
+    }
+    /*sections*/
+    .sections .container {
+        display: flex;
+        background-color: white;
+        flex-wrap: nowrap;
+        overflow: auto;
+    }
+    .sections .container .sec {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-left: 10px;
+    }
+    .scrollButtons a {
+        display: none;
+    }
+
+}
+
+
+/*
+-
+-
+-
+-
+-
+- -
+-
+-
+-
+-
+-
+-
+-
+-
+*/
+
+
+/* Large */
+
+@media (min-width: 1200px) {
+    .slider {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        width: 1200px;
+    }
+    .slider .sliderElement {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        gap: 40px;
+    }
+    .slider .sliderElement>div>img {
+        max-width: 600px;
+        transition-duration: 0.3s;
+    }
+    .slider .sliderElement .describe {
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        width: 600px;
+    }
+    .slider .sliderElement .describe i {
+        display: inline;
+    }
+    /*
+.slider .sliderElement>div>img {
+opacity: 0.5;
+}
+.slider .sliderElement>div {
+perspective: 600px;
+overflow: hidden;
+}
+.slider .sliderElement>div>img:hover {
+transform: translateZ(100px) rotate(6deg);
+opacity: 1;
+}*/
+    .secondHeader .container .largeText h1 {
+        font-size: 72px;
+    }
+    .secondHeader .container .buttons {
+        flex-direction: row;
+        padding: 0px 20px 0px 20px;
+    }
+    .secondHeader .container .buttons a {
+        margin-top: 20px;
+        margin-left: 5px;
+    }
+    p {
+        font-size: 25px;
+    }
+    .slider {
+        overflow: hidden;
+    }
+    .sliderScroller {
+        margin: 0 auto 0 auto;
+        width: 600px;
+        background-color: green;
+        display: flex;
+        justify-content: space-between;
+    }
+    .sliderScroller button {
+        background-color: transparent;
+        color: white;
+        padding: 10px;
+        border: none;
+    }
+    /*body*/
+    .body .bodyCont {
+        width: 1170px;
+    }
+    .body .bodyCont .bodyContElement {
+        display: flex;
+        flex-wrap: nowrap;
+        perspective: 300px;
+        margin-top: 30px;
+    }
+    .body .bodyCont .bodyContElement p {
+        font-size: 20px;
+        padding-left: 10px;
+    }
+    .body .bodyCont .bodyContElement img {
+        width: 600px;
+        height: calc(600px / 1.618px);
+    }
+
+    /*body2*/
+    .body2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        width: 100%;
+    }
+    .body2Cont {
+        width: 1200px;
+        margin: 0 auto 0 auto;
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        gap: 100px;
+        padding: 0 15px 0 15px;
+        justify-content: center;
+    }
+    .body2Element {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 0 10px #ddd;
+    }
+    .body2Element .dish img {
+        max-width: 300px;
+    }
+    .body2Element .dishText {
+        background-color: white;
+        width: 100%;
+        padding: 0 0 10px 10px;
+    }
+    .body2Element .dishText i {
+        margin-left: 20px;
+        font-size: large;
+    }
+    /*sections*/
+    .sections .container {
+        display: flex;
+        justify-content: flex-start;
+        background-color: white;
+        flex-wrap: nowrap;
+        overflow: hidden;
+        align-items: flex-start;
+        scroll-behavior: smooth;
+        align-content: flex-start;
+    }
+    .sections .container .sec {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 0 0 50px;
+    }
+    .scrollButtons a {
+        display: flex;
+    }
+    .scrollButtons :hover {
+        transition-duration: 0.3s;
+        background-color: green;
+    }
+
+}
